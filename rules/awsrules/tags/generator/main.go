@@ -68,9 +68,9 @@ const templateBody = `
 
 package tags
 
-var Resources = []string{
+var resources = map[string]*struct{}{
 	{{- range .Resources }}
-	"{{ . }}",
+	"{{ . }}": nil,
 	{{- end }}
 }
 `
