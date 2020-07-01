@@ -7,7 +7,7 @@ import (
 	"log"
 
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // AwsDxHostedPrivateVirtualInterfaceInvalidAddressFamilyRule checks the pattern is valid

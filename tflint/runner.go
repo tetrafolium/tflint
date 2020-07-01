@@ -14,7 +14,7 @@ import (
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/lang"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/terraform-linters/tflint/client"
+	"github.com/tetrafolium/tflint/client"
 	"github.com/zclconf/go-cty/cty"
 )
 

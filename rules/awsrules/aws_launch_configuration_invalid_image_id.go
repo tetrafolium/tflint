@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // AwsLaunchConfigurationInvalidImageIDRule checks whether "aws_instance" has invalid AMI ID

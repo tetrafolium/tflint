@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	utils "github.com/terraform-linters/tflint/rules/awsrules/generator-utils"
+	utils "github.com/tetrafolium/tflint/rules/awsrules/generator-utils"
 )
 
 type ruleMeta struct {

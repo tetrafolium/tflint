@@ -1,6 +1,6 @@
 package formatter
 
-import "github.com/terraform-linters/tflint/tflint"
+import "github.com/tetrafolium/tflint/tflint"
 
 type testRule struct{}
 

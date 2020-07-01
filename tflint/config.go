@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/hcl/v2/hclparse"
 	homedir "github.com/mitchellh/go-homedir"
 	tfplugin "github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint/client"
+	"github.com/tetrafolium/tflint/client"
 )
 
 var defaultConfigFile = ".tflint.hcl"

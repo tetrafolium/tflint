@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // TerraformDeprecatedInterpolationRule warns of deprecated interpolation in Terraform v0.11 or earlier.

@@ -5,7 +5,7 @@ package models
 import (
 	"testing"
 
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func Test_AwsCloudhsmV2HsmInvalidIPAddressRule(t *testing.T) {

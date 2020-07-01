@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func Test_jsonPrint(t *testing.T) {

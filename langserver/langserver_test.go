@@ -12,7 +12,7 @@ import (
 
 	"github.com/hashicorp/logutils"
 	"github.com/sourcegraph/jsonrpc2"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 type jsonrpcMessage struct {

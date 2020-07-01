@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	tfplugin "github.com/terraform-linters/tflint/plugin"
-	"github.com/terraform-linters/tflint/tflint"
+	tfplugin "github.com/tetrafolium/tflint/plugin"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func (cli *CLI) printVersion(opts Options) int {

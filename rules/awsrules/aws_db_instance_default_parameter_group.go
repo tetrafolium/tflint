@@ -6,7 +6,7 @@ import (
 	"regexp"
 
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // AwsDBInstanceDefaultParameterGroupRule checks whether the db instance use default parameter group

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func Test_AwsInstancePreviousType(t *testing.T) {

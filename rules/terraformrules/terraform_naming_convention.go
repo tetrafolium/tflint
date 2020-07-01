@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // TerraformNamingConventionRule checks whether blocks follow naming convention

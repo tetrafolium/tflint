@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/sourcegraph/jsonrpc2"
-	"github.com/terraform-linters/tflint/langserver"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/langserver"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func (cli *CLI) startLanguageServer(configPath string, cliConfig *tflint.Config) int {

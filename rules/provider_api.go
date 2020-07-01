@@ -2,7 +2,7 @@
 
 package rules
 
-import awsapirules "github.com/terraform-linters/tflint/rules/awsrules/api"
+import awsapirules "github.com/tetrafolium/tflint/rules/awsrules/api"
 
 var apiRules = []Rule{
 	awsapirules.NewAwsALBInvalidSecurityGroupRule(),

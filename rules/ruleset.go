@@ -1,6 +1,6 @@
 package rules
 
-import "github.com/terraform-linters/tflint/tflint"
+import "github.com/tetrafolium/tflint/tflint"
 
 // RuleSet is a pseudo RuleSet to handle core rules like plugin
 type RuleSet struct{}

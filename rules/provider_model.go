@@ -2,7 +2,7 @@
 
 package rules
 
-import awsmodelrules "github.com/terraform-linters/tflint/rules/awsrules/models"
+import awsmodelrules "github.com/tetrafolium/tflint/rules/awsrules/models"
 
 var modelRules = []Rule{
 	awsmodelrules.NewAwsAcmCertificateInvalidCertificateBodyRule(),

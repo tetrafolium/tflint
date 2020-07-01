@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 
-	utils "github.com/terraform-linters/tflint/rules/awsrules/generator-utils"
+	utils "github.com/tetrafolium/tflint/rules/awsrules/generator-utils"
 )
 
 type metadata struct {

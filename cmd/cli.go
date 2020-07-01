@@ -11,8 +11,8 @@ import (
 	"github.com/fatih/color"
 	flags "github.com/jessevdk/go-flags"
 
-	"github.com/terraform-linters/tflint/formatter"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/formatter"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.

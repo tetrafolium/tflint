@@ -12,7 +12,7 @@ import (
 	hcl "github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	tfplugin "github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint/client"
+	"github.com/tetrafolium/tflint/client"
 )
 
 func Test_LoadConfig(t *testing.T) {

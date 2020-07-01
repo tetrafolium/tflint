@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/terraform/configs"
 	client "github.com/terraform-linters/tflint-plugin-sdk/tflint"
 	tfplugin "github.com/terraform-linters/tflint-plugin-sdk/tflint/client"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 	"github.com/zclconf/go-cty/cty"
 )
 

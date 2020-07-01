@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/terraform-linters/tflint/cmd"
-	"github.com/terraform-linters/tflint/formatter"
+	"github.com/tetrafolium/tflint/cmd"
+	"github.com/tetrafolium/tflint/formatter"
 )
 
 func TestMain(m *testing.M) {

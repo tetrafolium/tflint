@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/spf13/afero"
-	tfplugin "github.com/terraform-linters/tflint/plugin"
-	"github.com/terraform-linters/tflint/rules"
-	"github.com/terraform-linters/tflint/tflint"
+	tfplugin "github.com/tetrafolium/tflint/plugin"
+	"github.com/tetrafolium/tflint/rules"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func (cli *CLI) inspect(opts Options, dir string, filterFiles []string) int {

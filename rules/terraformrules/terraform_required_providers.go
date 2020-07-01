@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // TerraformRequiredProvidersRule checks whether Terraform sets version constraints for all configured providers

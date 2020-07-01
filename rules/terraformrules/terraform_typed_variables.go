@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // TerraformTypedVariablesRule checks whether variables have a type declared

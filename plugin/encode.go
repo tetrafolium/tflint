@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/terraform/configs"
 	"github.com/terraform-linters/tflint-plugin-sdk/terraform"
 	tfplugin "github.com/terraform-linters/tflint-plugin-sdk/tflint/client"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 func (s *Server) encodeResource(resource *configs.Resource) *tfplugin.Resource {

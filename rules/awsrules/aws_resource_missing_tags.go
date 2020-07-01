@@ -8,8 +8,8 @@ import (
 
 	hcl "github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/terraform/configs"
-	"github.com/terraform-linters/tflint/rules/awsrules/tags"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/rules/awsrules/tags"
+	"github.com/tetrafolium/tflint/tflint"
 	"github.com/zclconf/go-cty/cty"
 )
 

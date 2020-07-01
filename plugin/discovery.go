@@ -11,7 +11,7 @@ import (
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/mitchellh/go-homedir"
 	tfplugin "github.com/terraform-linters/tflint-plugin-sdk/plugin"
-	"github.com/terraform-linters/tflint/tflint"
+	"github.com/tetrafolium/tflint/tflint"
 )
 
 // Discovery searches plugins according the passed configuration
