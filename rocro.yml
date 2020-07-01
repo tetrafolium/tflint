@@ -37,6 +37,7 @@ inspecode:
     thresholds: { num-issues: 999 }
 
   jscpd:
+    ignore: "**/*_test.go"
     thresholds: { num-issues: 999 }
   
   misspell:
