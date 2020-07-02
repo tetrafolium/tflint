@@ -1,4 +1,4 @@
-module github.com/terraform-linters/tflint
+module github.com/tetrafolium/tflint
 
 go 1.14
 
