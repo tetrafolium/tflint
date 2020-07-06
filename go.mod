@@ -8,6 +8,7 @@ require (
 	github.com/golang/mock v1.4.3
 	github.com/google/go-cmp v0.5.0
 	github.com/hashicorp/aws-sdk-go-base v0.5.0
+	github.com/hashicorp/consul v0.0.0-20171026175957-610f3c86a089
 	github.com/hashicorp/go-plugin v1.3.0
 	github.com/hashicorp/go-version v1.2.1
 	github.com/hashicorp/hcl/v2 v2.6.0
