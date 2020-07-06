@@ -22,7 +22,7 @@ resource "aws_cognito_resource_server" "foo" {
 }`,
 			Expected: tflint.Issues{
 				{
-					Rule:    NewAwsCognitoResourceServerInvalidIdentifierRule(),
+					Rule: NewAwsCognitoResourceServerInvalidIdentifierRule(),
 					Message: `"	" does not match valid pattern ^[\x21\x23-\x5B\x5D-\x7E]+$`,
 				},
 			},
