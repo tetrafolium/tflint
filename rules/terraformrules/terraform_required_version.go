@@ -2,9 +2,10 @@ package terraformrules
 
 import (
 	"fmt"
+	"log"
+
 	"github.com/hashicorp/hcl/v2"
 	"github.com/tetrafolium/tflint/tflint"
-	"log"
 )
 
 // TerraformRequiredVersionRule checks whether a terraform version has required_version attribute

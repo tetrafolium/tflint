@@ -3,15 +3,16 @@ package test
 import (
 	"errors"
 	"fmt"
-	"github.com/gruntwork-io/terratest"
-	terralog "github.com/gruntwork-io/terratest/log"
-	"github.com/gruntwork-io/terratest/util"
-	"github.com/hashicorp/consul/api"
 	"log"
 	"os"
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/gruntwork-io/terratest"
+	terralog "github.com/gruntwork-io/terratest/log"
+	"github.com/gruntwork-io/terratest/util"
+	"github.com/hashicorp/consul/api"
 )
 
 const REPO_ROOT = "../"

@@ -6,10 +6,11 @@ package client
 
 import (
 	context "context"
+	reflect "reflect"
+
 	request "github.com/aws/aws-sdk-go/aws/request"
 	elasticache "github.com/aws/aws-sdk-go/service/elasticache"
 	gomock "github.com/golang/mock/gomock"
-	reflect "reflect"
 )
 
 // MockElastiCacheAPI is a mock of ElastiCacheAPI interface

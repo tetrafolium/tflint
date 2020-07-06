@@ -1,10 +1,11 @@
 package test
 
 import (
-	"github.com/gruntwork-io/terratest"
-	"github.com/gruntwork-io/terratest/packer"
 	"log"
 	"testing"
+
+	"github.com/gruntwork-io/terratest"
+	"github.com/gruntwork-io/terratest/packer"
 )
 
 const CONSUL_AMI_TEMPLATE_VAR_REGION = "aws_region"

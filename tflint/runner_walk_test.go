@@ -2,8 +2,9 @@ package tflint
 
 import (
 	"fmt"
-	"github.com/hashicorp/terraform/configs"
 	"testing"
+
+	"github.com/hashicorp/terraform/configs"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"

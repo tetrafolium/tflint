@@ -5,11 +5,12 @@
 package tflint
 
 import (
+	reflect "reflect"
+
 	gomock "github.com/golang/mock/gomock"
 	hcl "github.com/hashicorp/hcl/v2"
 	configs "github.com/hashicorp/terraform/configs"
 	terraform "github.com/hashicorp/terraform/terraform"
-	reflect "reflect"
 )
 
 // MockAbstractLoader is a mock of AbstractLoader interface
