@@ -41,7 +41,7 @@ This will:
 
 We recommend using the `run-consul` command as part of [User 
 Data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html#user-data-shell-scripts), so that it executes
-when the EC2 Instance is first booting. After runing `run-consul` on that initial boot, the `supervisord` configuration 
+when the EC2 Instance is first booting. After running `run-consul` on that initial boot, the `supervisord` configuration 
 will automatically restart Consul if it crashes or the EC2 instance reboots.
 
 See the [consul-cluster example](https://github.com/hashicorp/terraform-aws-consul/tree/master/MAIN.md) for fully-working sample code.
