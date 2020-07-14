@@ -6,10 +6,11 @@ package client
 
 import (
 	context "context"
+	reflect "reflect"
+
 	request "github.com/aws/aws-sdk-go/aws/request"
 	ecs "github.com/aws/aws-sdk-go/service/ecs"
 	gomock "github.com/golang/mock/gomock"
-	reflect "reflect"
 )
 
 // MockECSAPI is a mock of ECSAPI interface

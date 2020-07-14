@@ -6,10 +6,11 @@ package client
 
 import (
 	context "context"
+	reflect "reflect"
+
 	request "github.com/aws/aws-sdk-go/aws/request"
 	elbv2 "github.com/aws/aws-sdk-go/service/elbv2"
 	gomock "github.com/golang/mock/gomock"
-	reflect "reflect"
 )
 
 // MockELBV2API is a mock of ELBV2API interface
