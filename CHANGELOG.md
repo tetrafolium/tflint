@@ -344,7 +344,7 @@ This is the first release in the terraform-linters organization. This release in
 
 ## 0.12.0 (2019-09-29)
 
-This release includes an experimental Language Server Procotol support. Using LSP makes it easy to integrate TFLint with your favorite editor. Currently, only diagnostics are provided.
+This release includes an experimental Language Server Protocol support. Using LSP makes it easy to integrate TFLint with your favorite editor. Currently, only diagnostics are provided.
 
 ### Breaking Changes
 
@@ -643,7 +643,7 @@ As a major improvement, added 700+ rules in this release. These rules are automa
 ### Enhancements
 
 - [#277](https://github.com/terraform-linters/tflint/pull/277): Ignore annotation support.
-  - `tflint-ignore: rule_name` annotation is now availble. See [README.md](https://github.com/terraform-linters/tflint/blob/v0.8.1/README.md#rules).
+  - `tflint-ignore: rule_name` annotation is now available. See [README.md](https://github.com/terraform-linters/tflint/blob/v0.8.1/README.md#rules).
 
 ### BugFixes
 
