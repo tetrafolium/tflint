@@ -1,11 +1,11 @@
 package test
 
 import (
+	"io/ioutil"
 	"os"
 	"path/filepath"
-	"testing"
-	"io/ioutil"
 	"strings"
+	"testing"
 )
 
 // Copy the files in the given path to a temp folder and return the path to that temp folder. We do this so

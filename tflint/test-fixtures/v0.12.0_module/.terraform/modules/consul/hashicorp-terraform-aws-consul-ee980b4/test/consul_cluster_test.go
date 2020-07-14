@@ -13,4 +13,3 @@ func TestConsulClusterWithAmazonLinuxAmi(t *testing.T) {
 	t.Parallel()
 	runConsulClusterTest(t, "TestConsulAmznLnx", "amazon-linux-ami")
 }
-
