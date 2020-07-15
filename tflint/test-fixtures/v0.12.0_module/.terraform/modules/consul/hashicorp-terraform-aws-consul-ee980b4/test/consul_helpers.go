@@ -1,17 +1,17 @@
 package test
 
 import (
-	"github.com/gruntwork-io/terratest"
-	"testing"
-	"os"
-	terralog "github.com/gruntwork-io/terratest/log"
-	"log"
-	"github.com/gruntwork-io/terratest/util"
-	"time"
-	"fmt"
-	"github.com/hashicorp/consul/api"
-	"path/filepath"
 	"errors"
+	"fmt"
+	"github.com/gruntwork-io/terratest"
+	terralog "github.com/gruntwork-io/terratest/log"
+	"github.com/gruntwork-io/terratest/util"
+	"github.com/hashicorp/consul/api"
+	"log"
+	"os"
+	"path/filepath"
+	"testing"
+	"time"
 )
 
 const REPO_ROOT = "../"
@@ -48,12 +48,12 @@ func runConsulClusterTest(t *testing.T, testName string, packerBuildName string)
 	logger := terralog.NewLogger(testName)
 	amiId := buildAmi(t, CONSUL_AMI_EXAMPLE_PATH, packerBuildName, resourceCollection, logger)
 
-	terratestOptions.Vars = map[string]interface{} {
-		CONSUL_CLUSTER_EXAMPLE_VAR_AWS_REGION: resourceCollection.AwsRegion,
+	terratestOptions.Vars = map[string]interface{}{
+		CONSUL_CLUSTER_EXAMPLE_VAR_AWS_REGION:   resourceCollection.AwsRegion,
 		CONSUL_CLUSTER_EXAMPLE_VAR_CLUSTER_NAME: testName + resourceCollection.UniqueId,
-		CONSUL_CLUSTER_EXAMPLE_VAR_NUM_SERVERS: CONSUL_CLUSTER_EXAMPLE_DEFAULT_NUM_SERVERS,
-		CONSUL_CLUSTER_EXAMPLE_VAR_NUM_CLIENTS: CONSUL_CLUSTER_EXAMPLE_DEFAULT_NUM_CLIENTS,
-		CONSUL_CLUSTER_EXAMPLE_VAR_AMI_ID: amiId,
+		CONSUL_CLUSTER_EXAMPLE_VAR_NUM_SERVERS:  CONSUL_CLUSTER_EXAMPLE_DEFAULT_NUM_SERVERS,
+		CONSUL_CLUSTER_EXAMPLE_VAR_NUM_CLIENTS:  CONSUL_CLUSTER_EXAMPLE_DEFAULT_NUM_CLIENTS,
+		CONSUL_CLUSTER_EXAMPLE_VAR_AMI_ID:       amiId,
 	}
 
 	deploy(t, terratestOptions)
