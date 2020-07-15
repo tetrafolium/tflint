@@ -25,7 +25,7 @@ Reference: https://github.com/terraform-linters/tflint/blob/v0.16.1/docs/rules/t
 
 ## Why
 
-Terraform v0.12 supports traditional square brackets for accessing list items by index. However, for backward compatability with v0.11, Terraform continues to support accessing list items with the dot syntax normally used for attributes. While Terraform does not print warnings for this syntax, it is no longer documented and its use is discouraged.
+Terraform v0.12 supports traditional square brackets for accessing list items by index. However, for backward compatibility with v0.11, Terraform continues to support accessing list items with the dot syntax normally used for attributes. While Terraform does not print warnings for this syntax, it is no longer documented and its use is discouraged.
 
 ## How To Fix
 
