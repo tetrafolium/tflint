@@ -6,10 +6,11 @@ package client
 
 import (
 	context "context"
+	reflect "reflect"
+
 	request "github.com/aws/aws-sdk-go/aws/request"
 	rds "github.com/aws/aws-sdk-go/service/rds"
 	gomock "github.com/golang/mock/gomock"
-	reflect "reflect"
 )
 
 // MockRDSAPI is a mock of RDSAPI interface

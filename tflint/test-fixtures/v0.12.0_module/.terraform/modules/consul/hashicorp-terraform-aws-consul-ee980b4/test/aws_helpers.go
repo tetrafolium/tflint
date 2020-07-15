@@ -1,12 +1,13 @@
 package test
 
 import (
+	"testing"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/defaults"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/autoscaling"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"testing"
 )
 
 // Get the IP address from a randomly chosen EC2 Instance in an Auto Scaling Group of the given name in the given
