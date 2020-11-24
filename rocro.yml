@@ -6,6 +6,9 @@ inspecode:
   errcheck:
     thresholds: { num-issues: 118 }
 
+  # fortify:
+  #   thresholds: { num-issues: 999 }
+
   fossology:
     thresholds: { num-issues: 5 }
 
