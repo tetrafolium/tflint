@@ -41,7 +41,7 @@ inspecode:
 
   jscpd:
     ignore: "**/*_test.go"
-    thresholds: { num-issues: 878 }
+    thresholds: { num-issues: 862 }
   
   misspell:
     auto-fix: true
