@@ -104,7 +104,7 @@ func testConsulCluster(t *testing.T, nodeIpAddress string, logger *log.Logger) {
 		}
 
 		if leader == "" {
-			return "", errors.New("Consul cluster returned an empty leader response, so a leader must not have been elected yet.")
+			return "", errors.New("Consul cluster returned an empty leader response, so a leader must not have been elected yet")
 		}
 
 		return leader, nil
