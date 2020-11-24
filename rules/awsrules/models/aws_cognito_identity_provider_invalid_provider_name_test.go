@@ -22,7 +22,7 @@ resource "aws_cognito_identity_provider" "foo" {
 }`,
 			Expected: tflint.Issues{
 				{
-					Rule:    NewAwsCognitoIdentityProviderInvalidProviderNameRule(),
+					Rule: NewAwsCognitoIdentityProviderInvalidProviderNameRule(),
 					Message: `"	" does not match valid pattern ^[\p{L}\p{M}\p{S}\p{N}\p{P}]+$`,
 				},
 			},

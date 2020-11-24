@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hclparse"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	utils "github.com/tetrafolium/tflint/rules/awsrules/generator-utils"
 	"github.com/terraform-providers/terraform-provider-aws/aws"
+	utils "github.com/tetrafolium/tflint/rules/awsrules/generator-utils"
 )
 
 type definition struct {

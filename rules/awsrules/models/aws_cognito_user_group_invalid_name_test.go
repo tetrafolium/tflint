@@ -22,7 +22,7 @@ resource "aws_cognito_user_group" "foo" {
 }`,
 			Expected: tflint.Issues{
 				{
-					Rule:    NewAwsCognitoUserGroupInvalidNameRule(),
+					Rule: NewAwsCognitoUserGroupInvalidNameRule(),
 					Message: `"user	group" does not match valid pattern ^[\p{L}\p{M}\p{S}\p{N}\p{P}]+$`,
 				},
 			},

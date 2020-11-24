@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/gruntwork-io/terratest/packer"
 	"github.com/gruntwork-io/terratest"
+	"github.com/gruntwork-io/terratest/packer"
 	"log"
 	"testing"
 )
@@ -21,7 +21,7 @@ func deploy(t *testing.T, terratestOptions *terratest.TerratestOptions) {
 func buildAmi(t *testing.T, packerTemplatePath string, packerBuildName string, resourceCollection *terratest.RandomResourceCollection, logger *log.Logger) string {
 	options := packer.PackerOptions{
 		Template: packerTemplatePath,
-		Only: packerBuildName,
+		Only:     packerBuildName,
 		Vars: map[string]string{
 			CONSUL_AMI_TEMPLATE_VAR_REGION: resourceCollection.AwsRegion,
 		},
@@ -60,4 +60,3 @@ func createBaseTerratestOptions(t *testing.T, testName string, templatePath stri
 
 	return terratestOptions
 }
-
